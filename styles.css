@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Sen:wght@400;800&display=swap');
+
+body{
+    font-family: 'Sen', sans-serif;
+    font-size: 100%;
+}
+
+#txt-area{
+    display: block;
+    margin: 1rem;
+    margin-bottom: 2rem;
+    height: 10vh;
+    max-width: 500px;
+    width: 100%;
+    border-width: 1px;
+}
+
+button {
+    background-color: rgb(255, 255, 0);
+    border-radius: 0.5rem;
+    color: black;
+    border-width: 1px;
+    appearance: auto;
+}
+
+.btn {
+    text-align: center;
+}
+
+.outputbox{
+    height: 10vh;
+    max-width: 500px;
+    width: 100%;
+    border: 1px black solid;
+    margin: 1rem;
+}
