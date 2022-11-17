@@ -74,7 +74,7 @@ footer {
     text-align: center;
     border-top-right-radius: 2rem;
     border-top-left-radius: 2rem;
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
 }
 footer h5{
     margin: 1rem;
@@ -111,4 +111,9 @@ a:-webkit-any-link {
     margin: auto;
     width: 300px;
     border-radius: 1rem;
+}
+
+.credit{
+    font-size: x-small;
+    padding-top: 1rem;
 }
