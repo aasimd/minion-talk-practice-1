@@ -2,9 +2,12 @@
 
 body{
     font-family: 'Sen', sans-serif;
-    font-size: 100%;
+    font-size: 150%;
 }
 
+div {
+    display: inherit;
+}
 #txt-area{
     display: block;
     margin: 1rem;
@@ -20,11 +23,10 @@ button {
     border-radius: 0.5rem;
     color: black;
     border-width: 1px;
-    appearance: auto;
+    font-size: large;
 }
-
 .btn {
-    text-align: center;
+    margin-left: 2rem;
 }
 
 .outputbox{
