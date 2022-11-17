@@ -88,6 +88,7 @@ p.about{
 
 footer .connect{
     margin-bottom: 0%;
+    font-size: x-large;
 }
 .about{
     font-size: small;
@@ -98,4 +99,16 @@ footer .connect{
     display: inline;
     margin: 1rem;
     color: black;
+    padding-bottom: 2rem;
+}
+
+a:-webkit-any-link {
+    color: inherit;
+    cursor: pointer;
+}
+
+.contact-info{
+    margin: auto;
+    width: 300px;
+    border-radius: 1rem;
 }
