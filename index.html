@@ -3,23 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=0.8">
     <title>Talk Banana</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
 </head>
 <body>
     <nav>
-        <h1>
+        <h1 class="speak-banana">
             Speak Banana!!
         </h1>
-        
+        <img class="nav-img" style="width: 200px;"  src="/images/minionn.jpg" alt="">
     </nav>
-    <textarea name="" id="txt-area" " placeholder="Type your text here and we will translate it to Banana language..."></textarea>
-    <div class="btn">
-        <button class="translate-button">Translate</button>
+    <div class="container">
+        <textarea name="" id="txt-area" " placeholder="Type your text here and we will translate it to Banana language..."></textarea>
+            <div class="btn">
+            <button class="translate-button">Translate</button>
+            </div>
+        <h6 style="margin-left: 1rem ;margin-block-end: 0.5em ;"> translated text will appear here 👇</h6>
+        <section class="outputbox"></section>
     </div>
-    <h3 style="margin-left: 1rem ;"> translated text will appear here 👇</h3>
-    <section class="outputbox"></section>
+    <footer>
+        <h5>
+            about
+        </h5>
+        <p class="about">
+            Are you a fan of minions? Did you know that the gibberish they say is an actual language. Use the translator to convert your text from English to Minion speak or Banana language.
+        </p>
+        <h5 class="connect">
+            Connect with me here
+        </h5>
+        <li class="non-bullet">
+            <a target="_blank" href="https://linkedin.com/in/aasim-dongarkar-28b365231"><i class="fa-brands fa-linkedin"></i></a>
+        </li>
+        <li class="non-bullet">
+            <a href="https://twitter.com/dthree01"><i class="fa-brands fa-twitter"></i></a>
+        </li>
+        <li class="non-bullet">
+            <a href="https://github.com/aasimd"><i class="fa-brands fa-github"></i></a>
+        </li>
+    </footer>
+    
     <script src="app.js"></script>
 </body>
 </html>

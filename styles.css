@@ -2,24 +2,48 @@
 
 body{
     font-family: 'Sen', sans-serif;
-    font-size: 150%;
+    font-size: 200%;
+    margin: 0%;
+    --primary-color: #ffe342;
 }
-
+nav{
+    background-color:var(--primary-color) ;
+    text-align: center;
+    margin-bottom: 3rem;
+    border-bottom-right-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+}
+.speak-banana{
+    margin-top: 0px;
+    padding-top: 2rem;
+}
+div.container{
+    padding: 1rem;
+    text-align: center;
+    margin: auto;
+}
+img .nav-img {
+    margin: auto;
+}
 div {
     display: inherit;
 }
 #txt-area{
+    text-align: center;
     display: block;
-    margin: 1rem;
+    padding: 1rem;
     margin-bottom: 2rem;
     height: 10vh;
-    max-width: 500px;
     width: 100%;
+    max-width: 400px;
     border-width: 1px;
+}
+textarea#txt-area{
+    margin: auto;
 }
 
 button {
-    background-color: rgb(255, 255, 0);
+    background-color:var(--primary-color);
     border-radius: 0.5rem;
     color: black;
     border-width: 1px;
@@ -31,8 +55,47 @@ button {
 
 .outputbox{
     height: 10vh;
-    max-width: 500px;
+    max-width: 400px;
     width: 100%;
     border: 1px black solid;
     margin: 1rem;
+    height: 10vh;
+}
+section.outputbox{
+    margin: auto;
+}
+
+footer {
+    background-color: var(--primary-color);
+    position: relative;
+    width: 100%;
+    height: fit-content;
+    bottom: 0;
+    text-align: center;
+    border-top-right-radius: 2rem;
+    border-top-left-radius: 2rem;
+    padding-bottom: 2rem;
+}
+footer h5{
+    margin: 1rem;
+    padding: 1rem;
+}
+p.about{
+    max-width: 400px;
+    margin: auto;
+    padding-bottom: 1rem;
+}
+
+footer .connect{
+    margin-bottom: 0%;
+}
+.about{
+    font-size: small;
+}
+
+.non-bullet{
+    list-style: none;
+    display: inline;
+    margin: 1rem;
+    color: black;
 }
